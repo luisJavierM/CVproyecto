@@ -9,7 +9,20 @@
     min-height: 100vh;
   }
 
-  body{
+  /*body{
     background-color: black;
     color: white;
-  }
+  }*/
+  :root {
+    --bg-color: #303134;
+    --color-text: #cad2db;
+    --box-shadow: 5px 5px 5px 0 rgb(32,33,36,1),
+                  -1px -1px 4px 0 rgb(32,33,36,1);
+}
+
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
